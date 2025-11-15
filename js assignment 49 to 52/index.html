@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+      <!-- Question 1 -->
+    <h2>Signup Form</h2>
+    <form id="signupForm">
+        <input type="text" name="name" placeholder="Enter Name" required /><br><br>
+        <input type="email" name="email" placeholder="Enter Email" required /><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <pre id="result"></pre>
+
+   <hr>
+
+    <!-- Question 2 -->
+    <h2>Read More Example</h2>
+    <p id="itemDetails" style="display:none;">
+        This is the full item details. When you click "Read More", this content will be visible.
+    </p>
+    <button id="readMoreBtn">Read More</button>
+
+    <hr>
+
+    <!-- Question 3 -->
+    <h2>Student Form</h2>
+
+    <form id="studentForm">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="number" name="age" placeholder="Age" required />
+        <input type="text" name="grade" placeholder="Grade" required />
+        <button type="submit">Add Student</button>
+    </form>
+
+    <br>
+
+    <table border="1" width="60%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="studentTableBody"></tbody>
+    </table>
+
+    <br>
+
+    <!-- Hidden Edit Form -->
+    <form id="editForm" style="display:none;">
+        <input type="text" name="name" />
+        <input type="number" name="age" />
+        <input type="text" name="grade" />
+        <button type="submit">Update</button>
+    </form>
+
+
+
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
