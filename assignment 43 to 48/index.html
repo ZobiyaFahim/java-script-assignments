@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Question 1 -->
+    <h2>Q1: Alert on Link Click</h2>
+    <a href="#" onclick="showAlert()">Click Me</a>
+
+    <hr>
+
+    <!-- Question 2 -->
+    <h2>Q2: Mobile Images Alert</h2>
+    <img src="imagee1.png" width="120" onclick="showImageAlert()">
+    <img src="imge2.png" width="120" onclick="showImageAlert()">
+
+    <hr>
+
+    <!-- Question 3 -->
+    <h2>Q3: Student Table with Delete Button</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>Student 1</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Student 2</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Student 3</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Question 4 -->
+    <h2>Q4: Image Hover Change</h2>
+    <img src="imagee1.png" width="200" onmouseover="changeImageOnHover(this)" onmouseout="revertImageOnMouseOut(this)">
+
+    <hr>
+
+    <!-- Question 5 -->
+    <h2>Q5: Counter</h2>
+    <h3 id="counterDisplay">0</h3>
+    <button onclick="increaseCounter()">Increase</button>
+    <button onclick="decreaseCounter()">Decrease</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
